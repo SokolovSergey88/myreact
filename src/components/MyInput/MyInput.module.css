@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: cadetblue;
+    color: red;
+}
+p{
+    font-size: 30px;
+}
