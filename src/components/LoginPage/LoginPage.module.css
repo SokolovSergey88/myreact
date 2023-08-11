@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    height: 50vh;
+    border: 1px solid #eaaa58;
+    border-radius: 15px;
+
+    background-color: lightcyan;
+}
+
+.form>label>span {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #eaaa58;
+    display: block;
+}
+
+.form>label>input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form>label>input:focus {
+    outline: none;
+}
