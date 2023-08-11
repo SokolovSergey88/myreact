@@ -1,9 +1,10 @@
-const UserAddress = ({address}) => {
-    const {street, city} = address;
+const UserAddress = ({user}) => {
+    const {address: {street, suite, city}} = user;
     return (
         <div>
-            <h3>Street: {street}</h3>
-            <h3>City: {city}</h3>
+            <p>street:{street}</p>
+            <p>suite:{suite}</p>
+            <p>city:{city}</p>
         </div>
     );
 };

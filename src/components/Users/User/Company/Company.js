@@ -1,9 +1,10 @@
-const Company = ({company}) => {
-    const {catchPhrase, bs} = company;
+const Company = ({user}) => {
+    const {company:{name,catchPhrase,bs}} = user;
     return (
         <div>
-            <p>catchPhrase: {catchPhrase}</p>
-            <p>bs: {bs}</p>
+            <h3>name: {name}</h3>
+            <h3>catchPhrase: {catchPhrase}</h3>
+            <h3>bs: {bs}</h3>
         </div>
     );
 };

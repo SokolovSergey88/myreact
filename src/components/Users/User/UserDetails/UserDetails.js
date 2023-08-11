@@ -1,11 +1,13 @@
-const UserDetails = ({data}) => {
-    const {id, name, username, email} = data;
+const UserDetails = ({user}) => {
+    const {id,name,username,email,phone,website} = user;
     return (
         <div>
-            <div>id: {id}</div>
-            <div>name: {name}</div>
-            <div>username: {username}</div>
-            <div>email: {email}</div>
+            <h3>id:{id}</h3>
+            <h3>name:{name}</h3>
+            <h3>username:{username}</h3>
+            <h3>email:{email}</h3>
+            <h3>phone:{phone}</h3>
+            <h3>website:{website}</h3>
         </div>
     );
 };
