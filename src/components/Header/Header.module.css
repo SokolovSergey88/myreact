@@ -1,0 +1,17 @@
+.header {
+    height: 50px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.header a {
+    text-decoration: none;
+    color: snow;
+}
+
+.header a[class='active'] {
+    color: burlywood;
+}
